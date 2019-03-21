@@ -9,21 +9,53 @@
 /* Begin PBXBuildFile section */
 		CFE1F1202243E983009864C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F11F2243E983009864C5 /* AppDelegate.swift */; };
 		CFE1F1222243E983009864C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F1212243E983009864C5 /* ViewController.swift */; };
-		CFE1F1252243E983009864C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F1232243E983009864C5 /* Main.storyboard */; };
 		CFE1F1282243E983009864C5 /* ProductDetailsSectionSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F1262243E983009864C5 /* ProductDetailsSectionSample.xcdatamodeld */; };
 		CFE1F12A2243E985009864C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F1292243E985009864C5 /* Assets.xcassets */; };
 		CFE1F12D2243E985009864C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F12B2243E985009864C5 /* LaunchScreen.storyboard */; };
+		CFE1F13C2243E9AF009864C5 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F1342243E9AF009864C5 /* CosmosDistrib.swift */; };
+		CFE1F13D2243E9AF009864C5 /* BasicDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F1352243E9AF009864C5 /* BasicDetailsViewController.swift */; };
+		CFE1F13E2243E9AF009864C5 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F1362243E9AF009864C5 /* ReviewViewController.swift */; };
+		CFE1F13F2243E9AF009864C5 /* FabricTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F1372243E9AF009864C5 /* FabricTableViewCell.swift */; };
+		CFE1F1402243E9AF009864C5 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F1382243E9AF009864C5 /* ReviewTableViewCell.swift */; };
+		CFE1F1412243E9AF009864C5 /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F1392243E9AF009864C5 /* BasicTableViewCell.swift */; };
+		CFE1F1422243E9AF009864C5 /* Fabric&CareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F13A2243E9AF009864C5 /* Fabric&CareViewController.swift */; };
+		CFE1F1432243E9AF009864C5 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F13B2243E9AF009864C5 /* TabViewController.swift */; };
+		CFE1F1602243E9D5009864C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F15F2243E9D5009864C5 /* Main.storyboard */; };
+		CFE1F1622243E9ED009864C5 /* Tests.json in Resources */ = {isa = PBXBuildFile; fileRef = CFE1F1612243E9ED009864C5 /* Tests.json */; };
+		CFE1F1702243EBB8009864C5 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F1692243EBB8009864C5 /* DataModel.swift */; };
+		CFE1F1712243EBB8009864C5 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F16A2243EBB8009864C5 /* Details.swift */; };
+		CFE1F1722243EBB8009864C5 /* BasicDetailsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F16B2243EBB8009864C5 /* BasicDetailsTab.swift */; };
+		CFE1F1732243EBB8009864C5 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F16C2243EBB8009864C5 /* Reviews.swift */; };
+		CFE1F1742243EBB8009864C5 /* ReviewsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F16D2243EBB8009864C5 /* ReviewsTab.swift */; };
+		CFE1F1752243EBB8009864C5 /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F16E2243EBB8009864C5 /* Values.swift */; };
+		CFE1F1762243EBB8009864C5 /* FabricAndCareTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE1F16F2243EBB8009864C5 /* FabricAndCareTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CFE1F11C2243E983009864C5 /* ProductDetailsSectionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductDetailsSectionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE1F11F2243E983009864C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFE1F1212243E983009864C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CFE1F1242243E983009864C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFE1F1272243E983009864C5 /* ProductDetailsSectionSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductDetailsSectionSample.xcdatamodel; sourceTree = "<group>"; };
 		CFE1F1292243E985009864C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFE1F12C2243E985009864C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFE1F12E2243E985009864C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE1F1342243E9AF009864C5 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+		CFE1F1352243E9AF009864C5 /* BasicDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicDetailsViewController.swift; sourceTree = "<group>"; };
+		CFE1F1362243E9AF009864C5 /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		CFE1F1372243E9AF009864C5 /* FabricTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabricTableViewCell.swift; sourceTree = "<group>"; };
+		CFE1F1382243E9AF009864C5 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		CFE1F1392243E9AF009864C5 /* BasicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
+		CFE1F13A2243E9AF009864C5 /* Fabric&CareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fabric&CareViewController.swift"; sourceTree = "<group>"; };
+		CFE1F13B2243E9AF009864C5 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		CFE1F15F2243E9D5009864C5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CFE1F1612243E9ED009864C5 /* Tests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tests.json; sourceTree = "<group>"; };
+		CFE1F1692243EBB8009864C5 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CFE1F16A2243EBB8009864C5 /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		CFE1F16B2243EBB8009864C5 /* BasicDetailsTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicDetailsTab.swift; sourceTree = "<group>"; };
+		CFE1F16C2243EBB8009864C5 /* Reviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		CFE1F16D2243EBB8009864C5 /* ReviewsTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsTab.swift; sourceTree = "<group>"; };
+		CFE1F16E2243EBB8009864C5 /* Values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
+		CFE1F16F2243EBB8009864C5 /* FabricAndCareTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabricAndCareTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +90,37 @@
 			children = (
 				CFE1F11F2243E983009864C5 /* AppDelegate.swift */,
 				CFE1F1212243E983009864C5 /* ViewController.swift */,
-				CFE1F1232243E983009864C5 /* Main.storyboard */,
+				CFE1F1352243E9AF009864C5 /* BasicDetailsViewController.swift */,
+				CFE1F15F2243E9D5009864C5 /* Main.storyboard */,
+				CFE1F1392243E9AF009864C5 /* BasicTableViewCell.swift */,
+				CFE1F1342243E9AF009864C5 /* CosmosDistrib.swift */,
+				CFE1F13A2243E9AF009864C5 /* Fabric&CareViewController.swift */,
+				CFE1F1372243E9AF009864C5 /* FabricTableViewCell.swift */,
+				CFE1F1382243E9AF009864C5 /* ReviewTableViewCell.swift */,
+				CFE1F1362243E9AF009864C5 /* ReviewViewController.swift */,
+				CFE1F13B2243E9AF009864C5 /* TabViewController.swift */,
+				CFE1F1682243EBB8009864C5 /* Models */,
 				CFE1F1292243E985009864C5 /* Assets.xcassets */,
+				CFE1F1612243E9ED009864C5 /* Tests.json */,
 				CFE1F12B2243E985009864C5 /* LaunchScreen.storyboard */,
 				CFE1F12E2243E985009864C5 /* Info.plist */,
 				CFE1F1262243E983009864C5 /* ProductDetailsSectionSample.xcdatamodeld */,
 			);
 			path = ProductDetailsSectionSample;
+			sourceTree = "<group>";
+		};
+		CFE1F1682243EBB8009864C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFE1F1692243EBB8009864C5 /* DataModel.swift */,
+				CFE1F16A2243EBB8009864C5 /* Details.swift */,
+				CFE1F16B2243EBB8009864C5 /* BasicDetailsTab.swift */,
+				CFE1F16C2243EBB8009864C5 /* Reviews.swift */,
+				CFE1F16D2243EBB8009864C5 /* ReviewsTab.swift */,
+				CFE1F16E2243EBB8009864C5 /* Values.swift */,
+				CFE1F16F2243EBB8009864C5 /* FabricAndCareTab.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +181,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE1F1602243E9D5009864C5 /* Main.storyboard in Resources */,
+				CFE1F1622243E9ED009864C5 /* Tests.json in Resources */,
 				CFE1F12D2243E985009864C5 /* LaunchScreen.storyboard in Resources */,
 				CFE1F12A2243E985009864C5 /* Assets.xcassets in Resources */,
-				CFE1F1252243E983009864C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,22 +196,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFE1F1222243E983009864C5 /* ViewController.swift in Sources */,
+				CFE1F1722243EBB8009864C5 /* BasicDetailsTab.swift in Sources */,
+				CFE1F1422243E9AF009864C5 /* Fabric&CareViewController.swift in Sources */,
+				CFE1F1402243E9AF009864C5 /* ReviewTableViewCell.swift in Sources */,
 				CFE1F1202243E983009864C5 /* AppDelegate.swift in Sources */,
+				CFE1F13E2243E9AF009864C5 /* ReviewViewController.swift in Sources */,
+				CFE1F1732243EBB8009864C5 /* Reviews.swift in Sources */,
+				CFE1F1742243EBB8009864C5 /* ReviewsTab.swift in Sources */,
+				CFE1F1702243EBB8009864C5 /* DataModel.swift in Sources */,
 				CFE1F1282243E983009864C5 /* ProductDetailsSectionSample.xcdatamodeld in Sources */,
+				CFE1F1432243E9AF009864C5 /* TabViewController.swift in Sources */,
+				CFE1F1752243EBB8009864C5 /* Values.swift in Sources */,
+				CFE1F1712243EBB8009864C5 /* Details.swift in Sources */,
+				CFE1F1412243E9AF009864C5 /* BasicTableViewCell.swift in Sources */,
+				CFE1F13C2243E9AF009864C5 /* CosmosDistrib.swift in Sources */,
+				CFE1F13F2243E9AF009864C5 /* FabricTableViewCell.swift in Sources */,
+				CFE1F13D2243E9AF009864C5 /* BasicDetailsViewController.swift in Sources */,
+				CFE1F1762243EBB8009864C5 /* FabricAndCareTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CFE1F1232243E983009864C5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFE1F1242243E983009864C5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CFE1F12B2243E985009864C5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
